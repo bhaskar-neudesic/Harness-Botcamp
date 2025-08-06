@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "rg-aks-harness"
+  default = "aks-harness-testrg-001"
 }
 
 variable "location" {
@@ -7,7 +7,7 @@ variable "location" {
 }
 
 variable "aks_cluster_name" {
-  default = "aks-harness-bs"
+  default = "aks-harness-test001"
 }
 
 variable "node_count" {
